@@ -27,7 +27,6 @@ main {
 }
 
 .centered {
-    /* text-align: center; */
     display: flex;
     justify-content: center;
 }
@@ -41,7 +40,7 @@ h1.title-greets {
     line-height: normal;
 }
 
-.google-auth {
+.btn {
     margin: auto;
     margin-top: 2.625rem;
     width: 60%;
@@ -55,6 +54,7 @@ h1.title-greets {
     line-height: normal;
     text-decoration: none;
     cursor: pointer;
+    border: none;
 }
 
 .trouble {
@@ -71,6 +71,75 @@ h1.title-greets {
     text-align: center;
     color: #BBB;
     font-size: 1.2375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+form .text-input {
+    padding: 0 3.5rem;
+}
+
+form .text-input label {
+    color: #BBB;
+    font-size: 0.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+form .text-input input {
+    display: block;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+form .text-input input:focus+label {
+    border: 1px solid blue;
+}
+
+form .text-input input::placeholder {
+    color: #BBB;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 3.5rem;
+}
+
+.forgot-password a {
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.primary-btn {
+    background: #FFFC00;
+    color: #000;
+}
+
+p.signup {
+    margin-top: 2.125rem;
+    color: #000;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p.signup a {
+    text-decoration: none;
+    color: #626262;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
