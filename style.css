@@ -74,6 +74,7 @@ h1.title-greets {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 1.87rem;
 }
 
 form .text-input {
@@ -81,6 +82,8 @@ form .text-input {
 }
 
 form .text-input label {
+    display: none;
+    margin-bottom: .5rem;
     color: #BBB;
     font-size: 0.5625rem;
     font-style: normal;
@@ -109,6 +112,7 @@ form .text-input input::placeholder {
 }
 
 .forgot-password {
+    margin-top: 0.9375rem;
     display: flex;
     justify-content: flex-end;
     padding: 0 3.5rem;
@@ -125,6 +129,7 @@ form .text-input input::placeholder {
 .primary-btn {
     background: #FFFC00;
     color: #000;
+    margin-top: 2.875rem;
 }
 
 p.signup {
