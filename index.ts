@@ -1,14 +1,9 @@
 document.addEventListener('DOMContentLoaded',() =>{
-    console.log('loaded')
-
 
     const input =  document.querySelectorAll('.text-input input') 
-    let parent, sibling
-    console.log('inputs', input)
 
     input.forEach((e) => {
         let f =  <HTMLInputElement>e;
-
 
         f.addEventListener('focus',event=>{
             const el = (event.target) as HTMLInputElement;
